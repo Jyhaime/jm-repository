@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Veloue</title>
@@ -19,48 +20,53 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="../img/logoVeloue.png" alt="logoVeloue" width="60"
-                        height="30"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse mt-2" id="navbarText">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="../index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="../Pages/velos.html">Velos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Pages/tarifs.html">Tarifs</a>
-                        </li>
-                    </ul>
-                    <div class="navbar-text">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../Pages/inscription.html">Inscription</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="../Pages/connexion.html">Connexion</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="../Pages/panier.html"><img src="../img/panier.png"
-                                        alt="logoPanier" height="30" width="30"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+    
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img src="../img/logoVeloue.png" alt="logoVeloue" width="60"
+						height="30"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+				aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse mt-2" id="navbarText">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+							<a class="nav-link" href="../index.php">Accueil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="velos.php">Velos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="tarifs.php">Tarifs</a>
+					</li>
+				</ul>
+				<div class="navbar-text">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="inscription.php">Inscription</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="connexion.php">Connexion</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="panier.php"><img src="../img/panier.png" alt="logoPanier" height="30"
+										width="30"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
     </header>
     
+    <div id="justpushtobottom">
+	</div>
+
     <div class="container">
         <div class="card shopping-cart">
-            <div class="card-header bg-dark text-light">
+            <div class="card-header bg-primary text-light">
                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 Mon pannier
                 <a href="../index.html" class="btn btn-outline-info btn-sm pull-right">Continuer la visite</a>

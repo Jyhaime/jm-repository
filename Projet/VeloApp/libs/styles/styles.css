@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Jura&display=swap');
+
+body{
+  font-family: 'Jura', sans-serif !important;
+}
+
+
+
+.navbar{
+  background-color: #2acbe0;
+  
+} 
+
+a.nav-link:link,a.nav-link:visited {
+  
+  color: #216AED !important;
+  
+}
+
+a.nav-link:hover, a.nav-link:active {
+  color: #21ed93 !important;
+}
+
+a.btn, input.btn{
+  background-color: #2acbe0;
+  color: #216AED;
+} 
+
+a.btn:hover, input.btn:hover  {
+  background-color: #216AED;
+  color: #21ed93;
+} 
+
+footer{
+  background-color: #216AED;
+  color: #2acbe0;
+}
+
+#justpushtobottom {
+  height: 15vh;
+}
+
+footer li a:link,footer li a:visited {
+  color: #2acbe0 !important;
+  
+}
+
+footer li a:hover{
+  color: #21ed93 !important;
+  
+}
+
+h1,h2,h3,h4,h5{
+  color: #216AED;
+}
+
+p{
+  color: #2acbe0;
+}
+

@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
 	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="../styles/styles.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<title>Veloue</title>
@@ -16,43 +17,45 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-			<div class="container">
-				<a class="navbar-brand" href="#"><img src="../img/logoVeloue.png" alt="logoVeloue" width="60"
+	 
+	<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img src="../img/logoVeloue.png" alt="logoVeloue" width="60"
 						height="30"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-					aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse mt-2" id="navbarText">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+				aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse mt-2" id="navbarText">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+							<a class="nav-link" href="../index.php">Accueil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="velos.php">Velos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="tarifs.php">Tarifs</a>
+					</li>
+				</ul>
+				<div class="navbar-text">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item ">
-							<a class="nav-link" href="../index.html">Accueil</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="../Pages/velos.html">Velos</a>
+						<li class="nav-item">
+							<a class="nav-link" href="inscription.php">Inscription</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="../Pages/tarifs.html">Tarifs</a>
+							<a class="nav-link" href="connexion.php">Connexion</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="panier.php"><img src="../img/panier.png" alt="logoPanier" height="30"
+										width="30"></a>
 						</li>
 					</ul>
-					<div class="navbar-text">
-						<ul class="navbar-nav mr-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="../Pages/inscription.html">Inscription</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="../Pages/connexion.html">Connexion</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="../Pages/panier.html"><img src="../img/panier.png" alt="logoPanier" height="30"
-										width="30"></a>
-							</li>
-						</ul>
-					</div>
 				</div>
 			</div>
-		</nav>
+		</div>
+	</nav>
+		
 	</header>
 	<section id="slider">
 		<div id="carouselVelos" class="carousel slide mt-5" data-ride="carousel">
@@ -69,7 +72,7 @@
 					<img src="../img/city.000.bike.jpg" class="d-block w-100" alt="HommVelo">
 				</div>
 				<div class="carousel-item">
-					<img src="../img/person.731492_960_720.jpg" class="d-block w-100" alt="HommeVeloDeVille">
+					<img src="../img/bike.1836934_960_720.jpg" class="d-block w-100" alt="HommeVeloDeVille">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselVelos" role="button" data-slide="prev">
@@ -85,7 +88,7 @@
 
 	<section id="articleVelos">
 		<div class="container mt-3">
-			<h2>Toggleable Tabs</h2>
+			<h2>Les différents types de vélos</h2>
 			<br>
 			<!-- Nav tabs -->
 			<ul class="nav nav-tabs">
@@ -149,7 +152,7 @@
 							taille de vélo adopter. Une fois assis sur la selle, si vous touchez le sol de la pointe des
 							pieds, c'est que la bicyclette est adaptée à votre taille.
 						</p>
-						<a href="#" class="btn btn-primary">Ajouter</a>
+						<a href="#" class="btn">Ajouter</a>
 					</article>
 				</div>
 				<div id="VeloDeVille" class="container tab-pane fade"><br>
@@ -199,7 +202,7 @@
 							taille de vélo adopter. Une fois assis sur la selle, si vous touchez le sol de la pointe des
 							pieds, c'est que la bicyclette est adaptée à votre taille.
 						</p>
-						<a href="#" class="btn btn-primary">Ajouter</a>
+						<a href="#" class="btn ">Ajouter</a>
 					</article>
 				</div>
 				<div id="VeloElectrique" class="container tab-pane fade"><br>
@@ -249,7 +252,7 @@
 							taille de vélo adopter. Une fois assis sur la selle, si vous touchez le sol de la pointe des
 							pieds, c'est que la bicyclette est adaptée à votre taille.
 						</p>
-						<a href="#" class="btn btn-primary">Ajouter</a>
+						<a href="#" class="btn">Ajouter</a>
 					</article>
 				</div>
 			</div>
