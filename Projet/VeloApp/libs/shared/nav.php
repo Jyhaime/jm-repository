@@ -2,6 +2,7 @@
 
 function nav($active){
 
+
 ?>
 
 <header>
@@ -32,7 +33,7 @@ function nav($active){
           } 
         ?> 
 					">
-						<a class="nav-link" href="pages/velos.php">Velos</a>
+						<a class="nav-link" href="libs/pages/velos.php">Velos</a>
 					</li>
 					<li class="nav-item
 					<?php 
@@ -41,7 +42,7 @@ function nav($active){
           } 
         ?> 
 					">
-						<a class="nav-link" href="pages/tarifs.php">Tarifs</a>
+						<a class="nav-link" href="libs/pages/tarifs.php">Tarifs</a>
 					</li>
 				</ul>
 				<div class="navbar-text">
@@ -53,7 +54,7 @@ function nav($active){
           } 
         ?> 
 						">
-							<a class="nav-link" href="pages/inscription.php">Inscription</a>
+							<a class="nav-link" href="libs/pages/inscription.php">Inscription</a>
 						</li>
 						<li class="nav-item
 						<?php 

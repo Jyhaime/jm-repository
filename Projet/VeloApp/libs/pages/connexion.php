@@ -1,7 +1,7 @@
 <?php 
-require '../../src/head.php';
-require '../../src/footer.php';
-require '../../src/nav.php';
+require '../shared/head.php';
+require '../shared/footer.php';
+require '../shared/nav.php';
 
     head("Page d'accueil");
     nav("Home");

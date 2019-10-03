@@ -1,7 +1,7 @@
 <?php 
-require 'src/head.php';
-require 'src/footer.php';
-require 'src/nav.php';
+require 'libs/shared/head.php';
+require 'libs/shared/footer.php';
+require 'libs/shared/nav.php';
 
     head("Page d'accueil");
     nav("Home");
